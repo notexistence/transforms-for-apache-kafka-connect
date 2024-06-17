@@ -92,6 +92,7 @@ configurations {
 
 dependencies {
     compileOnly "org.apache.kafka:connect-api:$kafkaVersion"
+    compileOnly "org.apache.kafka:connect-transforms:$kafkaVersion"
     compileOnly "io.debezium:debezium-api:$debeziumVersion"
 
     implementation "org.slf4j:slf4j-api:1.7.36"
